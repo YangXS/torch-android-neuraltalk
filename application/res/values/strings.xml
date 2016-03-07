@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NeuralTalk Image Captioning</string>
+    <string name="button_image_caption">Start NeuralTalk Image Captioning</string>
+    <string name="button_camera">Take Photo to caption</string>
+    <string name="Back">Back</string>
+    <string name="result">caption: </string>
+    <string name="selected_image">Selected Image</string>
+    <string name="select_image">Select Image from gallery to caption</string>
+    <string name="start_caption">Start captioning</string>
+    <string name="wait_for_caption">Captioning...Please wait</string>
+
+</resources>
