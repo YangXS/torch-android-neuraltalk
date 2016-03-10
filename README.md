@@ -5,6 +5,11 @@ This is an android application for image captioning using recurrent neural netwo
 To reduce the model size and speed up the inference time, I retrained the neuraltalk with the [inception model](https://github.com/soumith/inception.torch)
 instead of vgg. On my htc-one phone it takes 30 seconds to caption each image. For comparison [Tap TapSee](https://play.google.com/store/apps/details?id=com.msearcher.taptapsee.android&hl=en)
 needs about 20 seconds for captioning on my device.
+If you want to test the app you can download the [apk](https://drive.google.com/file/d/0B-tvBXu7-t0-T2xyZFRadHc0cVk/view?usp=sharing) and
+install it:
+```bash
+adb install -r torch-neuraltalk.apk
+```
 
 ## Requirements
 You need [android torch](https://github.com/soumith/torch-android) to build this app. Please follow their instructions to build android
